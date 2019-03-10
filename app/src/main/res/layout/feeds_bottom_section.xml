@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp">
+
+    <ImageView
+        android:id="@+id/imgShare"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_iconfinder_whatsapp_287520"/>
+    <TextView
+        android:id="@+id/tvShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginLeft="7dp"
+        android:text="share"/>
+    <ImageView
+        android:id="@+id/imgLike"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_inactive_like"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:id="@+id/tvLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginLeft="7dp"
+        android:text="likes"/>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgPerson"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/harry"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/imgPerson"
+        android:id="@+id/tvPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harry Potter"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
