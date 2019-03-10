@@ -87,7 +87,7 @@ public class MainActivityPresenter implements MainActivityContract.Presenter {
             if (!PermissionCheck.readAndWriteExternalStorage(context)) {
                 mView.setPermissions(position,respDataList);
             } else {
-                Utility.download(respDataList.get(position).getAttachments().get(0).getUrl(), context, respDataList.get(position).getAttachments().get(0).getType(), respDataList.get(0).getTitle());
+                Utility.download(respDataList.get(position).getAttachments().get(0).getUrl(), context, respDataList.get(position).getAttachments().get(0).getType(), respDataList.get(position).getTitle());
                 Toast.makeText(context, "Downloading ...", Toast.LENGTH_SHORT).show();
             }
         }
