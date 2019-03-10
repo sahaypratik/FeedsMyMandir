@@ -29,7 +29,7 @@ public class Utility {
         request.setTitle(title);
         request.allowScanningByMediaScanner();
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"mymandir/"+type);
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"mymandir/"+type+"/"+title);
         request.setMimeType("*/*");
 
         downloadManager.enqueue(request);
